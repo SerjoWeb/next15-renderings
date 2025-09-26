@@ -25,6 +25,7 @@ const HomePage = ({ searchParams }: { searchParams: SearchParamProps }): ReactEl
         <h4 className="font-semibold">Menu</h4>
         <ul className="mt-2">
           <li><Link href="/users">• User List</Link></li>
+          <li><Link href="/websocket">• Websocket example</Link></li>
         </ul>
       </div>
       <Modal
